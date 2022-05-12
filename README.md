@@ -102,6 +102,7 @@ card container의 height에 `auto`를 주어 내부 텍스트 길이만큼 늘�
 
 ### 💻 프로젝트를 진행하면서 느낀점
 
+
 프레임워크를 사용하지 않고 기본적인 HTML, CSS, Javascript에 대해 다시 공부하며 진행했던 귀중한 시간이었다.
 
 Dark mode 구현을 진행하면서 Javascript 메서드에 대해 공부할 수 있었으며, 
