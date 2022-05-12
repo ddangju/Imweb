@@ -54,12 +54,14 @@ card container의 height에 `auto`를 주어 내부 텍스트 길이만큼 늘�
 
 <br>
 
-### 3. 카드를 눌렀을 때 해당 상세 모달이 노출. 
+### 3. 카드를 눌렀을 때 해당 상세 모달이 노출.
 
 
 해당 카드를 클릭 시 toggleModal함수를 호출합니다. modal container는 `display:none`상태에서 `display:block`스타일이 정의 되어있는 `visible`클래스를 `classList`에 추가합니다.
 
 또 현재타겟의 이미지와 텍스트를 가져와서 document로 접근한 `modal`들의 정보에 할당해줍니다. 
+
+`x`버튼과 background를 클릭하면 modal이 닫힙니다. 
 
 ![3](https://user-images.githubusercontent.com/68775082/167970253-04dd71d7-0b6d-46b4-81b6-2ae7eb63ec1e.gif)
 
