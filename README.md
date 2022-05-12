@@ -89,7 +89,7 @@ card container의 height에 `auto`를 주어 내부 텍스트 길이만큼 늘�
 
 <br>
 
-### 5. 추가구현) 상단에 Dark mode 버튼 클릭 시 Dark mode로 전환
+### 6. 추가구현) 상단에 Dark mode 버튼 클릭 시 Dark mode로 전환
 
 ![5](https://user-images.githubusercontent.com/68775082/167970621-fb015992-b939-48af-acd3-7ef591116470.gif)
 
