@@ -1,6 +1,6 @@
 :root[color-theme="light"] {
-  --containerBg: linear-gradient(225deg, #d4d8dd, #73718b);
-  --cardBg: linear-gradient(135deg, #ffffff, #d3d2df);
+  --containerBg: linear-gradient(225deg, #d4d8dd, #d4ccff);
+  --cardBg: linear-gradient(135deg, #ffffff, #ffffff);
   --text: black;
   --background: white;
 }
