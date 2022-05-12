@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="mediaquery.css" />
+    <link rel="stylesheet" href="darkmode.css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navContainer">
+        <span
+          class="material-symbols-outlined headerIcon"
+          onclick="toggleMenu()"
+        >
+          menu
+        </span>
+        <span class="material-symbols-outlined darkModeButton">light_mode</span>
+        <div class="modalBackgroundColor"></div>
+        <div class="sideBar">
+          <button onclick="toggleMenu()">x</button>
+          <ul>
+            <li>menu1</li>
+            <li>menu2</li>
+            <li>menu3</li>
+          </ul>
+        </div>
+        <div class="headerContainer">
+          <h1 class="headerTitle">LOGO</h1>
+          <ul class="menusContainer">
+            <li class="menu">menu1</li>
+            <li class="menu">menu2</li>
+            <li class="menu">menu3</li>
+          </ul>
+        </div>
+      </nav>
+      <div class="cardsContainer">
+        <div class="card">
+          <img src="./img/핫도그.jpg" alt="image" class="img" />
+          <p class="cardTitle">asdf</p>
+          <p class="cardContent">asdfasdf</p>
+        </div>
+        <div class="card">
+          <img src="./img/image1.jpg" alt="image" class="img" />
+          <p class="cardTitle">123123</p>
+          <p class="cardContent">124125125125</p>
+        </div>
+        <div class="card">
+          <img src="./img/image2.jpg" alt="image" class="img" />
+          <p class="cardTitle">bxvcbxcvb</p>
+          <p class="cardContent">xvcbxcbvb</p>
+        </div>
+        <div class="card">
+          <img src="./img/image3.jpg" alt="image" class="img" />
+          <p class="cardTitle">Title</p>
+          <p class="cardContent">content</p>
+        </div>
+        <div class="card">
+          <img src="./img/image4.jpg" alt="image" class="img" />
+          <p class="cardTitle">Title</p>
+          <p class="cardContent">
+            content content content content contentcontent
+            contentcontentcontentcontent contentcontent
+          </p>
+        </div>
+        <div class="card">
+          <img src="./img/image5.jpg" alt="image" class="img" />
+          <p class="cardTitle">Title</p>
+          <p class="cardContent">content</p>
+        </div>
+        <div class="card">
+          <img src="./img/image6.jpg" alt="image" class="img" />
+          <p class="cardTitle">Title</p>
+          <p class="cardContent">content</p>
+        </div>
+        <div class="card">
+          <img src="./img/image7.jpg" alt="image" class="img" />
+          <p class="cardTitle">Title</p>
+          <p class="cardContent">content</p>
+        </div>
+        <div class="card">
+          <img src="./img/image8.jpg" alt="image" class="img" />
+          <p class="cardTitle">Title</p>
+          <p class="cardContent">content</p>
+        </div>
+        <div class="card">
+          <img src="./img/image9.jpg" alt="image" class="img" />
+          <p class="cardTitle">Title</p>
+          <p class="cardContent">content</p>
+        </div>
+      </div>
+
+      <!-- modal -->
+      <div class="modalContainer">
+        <img class="modalImg" src="" />
+        <section>
+          <p class="modalTitle"></p>
+          <p class="modalContent"></p>
+        </section>
+        <button class="modalCloseButton" onclick="toggleModal()">x</button>
+      </div>
+      <button class="scrollButton" onclick="checkScroll()">Top</button>
+    </div>
+  </body>
+  <script src="./index.js"></script>
+</html>

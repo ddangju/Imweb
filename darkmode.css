@@ -1,0 +1,42 @@
+:root[color-theme="light"] {
+  --containerBg: linear-gradient(225deg, #d4d8dd, #73718b);
+  --cardBg: linear-gradient(135deg, #ffffff, #d3d2df);
+  --text: black;
+  --background: white;
+}
+
+:root[color-theme="dark"] {
+  --containerBg: linear-gradient(225deg, #636569, #000000);
+  --cardBg: linear-gradient(135deg, #3d3c41, #000000);
+  --text: white;
+  --background: black;
+}
+
+.darkModeButton,
+.scrollButton {
+  border-color: var(--text);
+  background-color: var(--background);
+  color: var(--text);
+}
+
+.headerIcon {
+  color: var(--text);
+}
+
+.navContainer,
+.cardsContainer,
+.sideBar,
+.modalContainer {
+  background: var(--containerBg);
+}
+
+.card {
+  background: var(--cardBg);
+}
+
+h1,
+ul,
+li,
+p {
+  color: var(--text);
+}
